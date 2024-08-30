@@ -1,5 +1,3 @@
-import React from 'react'
-
 const CurrentTime = () => {
     const currentTime = new Date().toLocaleTimeString('en-US', {
         hour: '2-digit',

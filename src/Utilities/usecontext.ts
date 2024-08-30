@@ -16,5 +16,5 @@ export const infocontext = createContext({
     tempMax:0,
     clouds:0
   },
-  updateWeather: (weather: WeatherInfoProp) => {},
+  updateWeather: (_weather: WeatherInfoProp) => {},
 })

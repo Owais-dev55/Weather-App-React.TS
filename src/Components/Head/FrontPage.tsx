@@ -1,4 +1,3 @@
-
 import Searchbox from "./Searchbox";
 import Image from "../../assets/main image.webp";
 import lightRain from "../../assets/light rain.webp";
