@@ -38,14 +38,13 @@ const Searchbox = () => {
           <span className="absolute left-0 py-3 sm:py-5 pl-4 text-base sm:text-lg text-white transition duration-500 pointer-events-none"></span>
           <i className="absolute left-0 bottom-0 w-full h-0.5 bg-blue-400 rounded-full transition duration-500 pointer-events-none z-9"></i>
         </div>
-        <button className="flex items-center justify-center overflow-hidden sm:w-auto border border-green-600 rounded py-2 px-4 w-40 h-10 text-white bg-green-500 hover:bg-green-700 active:translate-y-1 active:shadow-none transition duration-150 ease-in-out ml-2 mt-2">
-          {" "}
-          <span className="text-lg uppercase font-normal">
-            {" "}
-            Check Weather &nbsp;{" "}
-            <i className="fa-solid fa-magnifying-glass-location"></i>{" "}
-          </span>{" "}
-        </button>
+        <button className="flex items-center justify-center overflow-hidden border border-green-600 rounded py-2 px-4 sm:px-6 sm:py-3 w-40 sm:w-auto h-10 sm:h-12 text-white text-sm sm:text-lg bg-green-500 hover:bg-green-700 active:translate-y-1 active:shadow-none transition duration-150 ease-in-out ml-2 mt-2">
+  <span className="uppercase font-normal">
+    Check Weather &nbsp;
+    <i className="fa-solid fa-magnifying-glass-location"></i>
+  </span>
+</button>
+
       </form>
       {error && (
         <p className="text-yellow-300 font-bold text-lg mb-4 	p-2.5 rounded-lg bg-red-700 border border-solid border-red-500">
