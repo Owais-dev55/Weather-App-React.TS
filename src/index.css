@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.heading-para {
+  @apply text-gray-600 font-medium;
+}
+
+.body-para {
+  @apply text-lg font-bold text-gray-800;
+}
+
